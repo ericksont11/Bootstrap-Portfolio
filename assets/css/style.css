@@ -1,0 +1,80 @@
+body {
+    background-image: url("../images/stonehaven.png");
+    height: 130vh;
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:antiquewhite;
+    background-color: slategray;
+    text-shadow: none;
+    padding: 10px;
+    border-top: 8px solid #ADD9E6;
+    height: 50px;
+
+}
+
+.navbar { 
+    padding: 0;
+    height: 50px;
+    background-color: #ADD9E6; 
+ }
+
+ .navbar-brand {
+     background-color: antiquewhite;
+ }
+
+ a {
+     padding: 10px;
+ }
+
+.bordered {
+    border: 3px sol slategray;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: slategray;
+    height: 100%;
+}
+
+.container {
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+    padding: 0;
+    border: slategray solid 3px
+}
+
+
+
+img {
+    float: left;
+    padding-right: 10px;
+    max-width: 360px; 
+    max-height:400px; 
+    padding-top: 13px
+}
+
+.card {
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+form {
+    padding:30px;
+}
+@media (max-width: 768px) {  
+    .container{
+        max-width:100vw;
+    }
+    img {
+        width: 80%;
+        float: none;
+        text-align: center;
+        margin-left: 10%;
+       
+    }
+}
+
